@@ -1,4 +1,4 @@
-int drag = 0;
+
 public void setup()
 {
 	background(255);
@@ -14,7 +14,7 @@ public void mouseDragged()//optional
 }
 public void sierpinski(int x, int y, int len) 
 {
-	if(len <= 600)
+	if(len <= 20)
 	{
 		fill(0);
 		triangle(x, y, x + len/2, y - len, x + len, y);
